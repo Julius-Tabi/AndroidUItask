@@ -1,20 +1,36 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+  <ion-content padding center text-center>
+    <ion-title>K.A.P.A</ion-title>
+    <!-- Inputs with labels -->
+    <ion-list>
+      <ion-item>
+        <!-- <ion-label></ion-label> -->
+        <ion-input  placeholder="User Name"></ion-input>
+      </ion-item>
+      
+      <ion-item>
+        <!-- <ion-label  placeholder="User Name"></ion-label> -->
+        <ion-input  placeholder="Password" type="Password"></ion-input>
+      </ion-item>
+      
+      <ion-item>
+        <!-- <ion-label >Password:</ion-label> -->
+        <ion-input  placeholder="Email Address"></ion-input>
+      </ion-item>
+      
+      <ion-item>    
+          <ion-route>
+            <p>password</p>
+          </ion-route>
+          <p style="padding-left: 2px;">Don't have an Account?</p>
+        <a href="https://example.com" style="padding-left: 2px;">Sign Up</a>
+      </ion-item>
+    </ion-list>
+    
+    <ion-button full size="medium">Sign In</ion-button>
+  
+    </ion-content>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
-</ion-content>
+
+  
+
